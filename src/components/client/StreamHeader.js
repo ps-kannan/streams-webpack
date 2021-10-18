@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import GoogleAuth from './GoogleAuth';
 const StreamHeader = () => {
     return(
         <div className="ui seondary pointing menu">
@@ -11,6 +11,7 @@ const StreamHeader = () => {
                 <Link to="/streamapp" className="item">
                     All Streams
                 </Link>
+                <GoogleAuth/>
             </div>
         </div>
     );
